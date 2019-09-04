@@ -8,8 +8,8 @@
       
   - name: create ec2 instance
     ec2:
-      aws_access_key: "AKIAICSHO7FSISSSLNCQ"
-      aws_secret_key: "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"
+      aws_access_key: ""
+      aws_secret_key: ""
       image: ami-0540a629cd8af8ad4
       wait: yes
       instance_type: t2.large
