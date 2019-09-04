@@ -8,8 +8,8 @@
       
   - name: create ec2 instance
     ec2:
-      aws_access_key: ""
-      aws_secret_key: ""
+      aws_access_key: "{{ accessKey }}"
+      aws_secret_key: "{{ secretKey }}"
       image: ami-0540a629cd8af8ad4
       wait: yes
       instance_type: t2.large
